@@ -33,9 +33,12 @@ Tabela 1.0 Tabela de comparação de parâmetros das IMUs de baixo custo.
 
   Em observância com a Tabela 1.0, a IMU selecionada como solução foi a MPU9250, pois a mesma possui um custo baixo e magnetômetro, contemplando 9 graus de liberdade, três graus de liberdade a mais do que a MPU6050. A GY80 possui um custo mais alto comparado aos demais. A Figura 2.0 apresenta a orientação dos eixos dos sensores (a) acelerômetro, (b) giroscópio e (c) magnetômetro, esses dados são essenciais para realização do código para aquisição dos sinais (INVENSENSE, 2016). A Tabela 2.0 apresenta as características do MPU9250. Os três sensores imbutidos na MPU9250 podem obter sinais nos três eixos (x, y, z) e possuem três conversores analógico-digitais (ADCs) de 16 bits, para cada respectivo sensor.
   
- Figura 2 
- Tabela 2.0
- | Características             | MPU9250            |
+ Figura 2
+ 
+ 
+ Tabela 2.0 Características da IMU MPU9250
+ 
+| Características             | MPU9250            |
 |------------------------------|--------------------|
 | Alimentação                  |       2,4 - 3,6 V  | 
 | Dimensão                     |  15 x 25 mm        |    
@@ -44,7 +47,7 @@ Tabela 1.0 Tabela de comparação de parâmetros das IMUs de baixo custo.
 | Corrente de operação normal  |        3,5 mA   |  
 | Frequência de operação       |        400 kHz   |  
 
-*Essa corrente de operação é com o DPM habilitado. O DPM é o processador utilizado na IMU9250.
+Essa corrente de operação é com o DPM habilitado. O DPM é o processador utilizado na IMU9250.
 
 Fonte: (INVENSENSE, 2016)
 
