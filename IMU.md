@@ -1,6 +1,6 @@
 
 
-### 3.3  Solução do sistema 2RElectronic
+# 3.3  Solução do sistema 2RElectronic
 
   O sistema de eletrônica ficou responsável pelo sensoriamento, aquisição de sinais, tratamentos dos sinais e controle do acionamento das cargas. Os sinais obtidos foram das IMUs e dos botões, este último define qual a carga que deverá ser acionada. Este relatório apresenta a evolução do grupo, assim como as alterações realizadas no escopo do ponto de controle 1.
 
@@ -8,10 +8,10 @@
 
   Esse subsistema continha o 2RE-Cardio e o 2RE-IMU. Devido a demanda e necessidade do projeto o 2RE-Cardio teve de ser retirado, a aquisição desse dado não apresenta um parâmetro significativo para o equipamento de remo ergométrico 2Row. Abaixo, serão descritas as soluções, decisões embasadas e testes desse subsistema. 
 
-# 2RE-Cardio: 
+### 2RE-Cardio: 
   Esse subsistema foi retirado, pois a aquisição dos dados de batimentos cardíacos e a filtragem desses dados requer uma dificuldade que não contempla o tempo estipulado para finalizar o projeto, já que a eletrônica precisa obter e repassar parâmetros que são essenciais para a integração. 
 
-# 2RE-IMU:
+### 2RE-IMU:
 
   A Unidade de Medida Inercial (IMU) é um sistema microeletromecânico (MEM), que permite identificar a posição  ou o deslocamento de um corpo rígido em um espaço tridimensional. Neste trabalho, a IMU será responsável em determinar a posição do membro inferior direito para a criação de exoesqueleto autónomo para a identificação e correção da postura do praticante de remo indoor. Desse modo, este trabalho sugere implementar uma IMU em dois centros de gravidades, pois nesses pontos a massa está distribuída de forma uniforme,  localizados no membro inferior do exoesqueleto como pode ser visto na Figura 1.0, para estimar a orientação desses pontos onde há equilíbrio de forças (VAUGHAN et al., 1999).
   
@@ -28,14 +28,14 @@ Tabela 1.0
  
  Foi realizado um código para calibrar as IMUs utilizadas, pois como as medidas devem ser enviadas de forma contínua, é necessário que haja uma maior precisão. 
 
-Calibração
+#### Calibração
 
 Figura 3
 Figura 4
 Figura 5
 Figura 6
 
-# Protocolo de comunicação I2C
+#### Protocolo de comunicação I2C
 
   O protocolo I2C(Inter- Intergrated Circuit) é um barramento de comunicação serial que utiliza dois fios( Serial Data- DAS e Serial Clock- SCL), ou seja sinal de dados e de clock. Ele realiza a comunicação de escrita (W) e leitura (R) entre dois ou mais dispositivos, em que se pode ocorrer entre um mestre e um ou mais escravos. Para que o mestre envie sinal para determinado escravo ele precisa saber qual o endereço do escravo. Cada escravo tem um endereço específico de identificação, composto de 7 bits. Neste trabalho, o dispositivo dimensionado como mestre é o microcontrolador ESP8366 Node-MCU, e o escravo é a MPU9250. Tem-se também o escravo do escravo, o qual é o segundo MPU9250. ço do escravo a ser contactado.
 
