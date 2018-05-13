@@ -13,3 +13,19 @@
     publisher: "VII CONNEPI-Congresso Norte Nordeste de Pesquisa e Inovação"
     issue: 1
     language: pt-BR
+    
+    
+  - type: article-journal
+    id: maia06
+    author:
+    - family: Maia
+      given: [Gustavo B. M. M.]
+    issued:
+      date-parts:
+      - - 2006
+    title: 'Remo: cargas concentradas de força e sua relação com a alteração de diferentes indicadores funcionais'
+    publisher: "Universidade Estadual de Campinas"
+    issue: 1
+    language: pt-BR
+    
+   
