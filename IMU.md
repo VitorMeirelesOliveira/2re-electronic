@@ -17,7 +17,9 @@
   
   Figura 1 do exoesqueleto
   
-  A IMU é composta de três sensores principais, os quais são acelerômetro, giroscópio e magnetômetro, o que possibilita obter continuamente  a variação de velocidade, posição e direção de um corpo rígido(ARAÚJO et al., 2013). Esses sensores podem realizar medições nos eixos de referência x,y e z. A Tabela 1.0 apresenta uma comparação entre IMUs de baixo custo e parâmetros relevantes para a escolha da tecnologia, como: quantidade de sensores embarcados, graus de liberdade, custo.
+  A IMU é composta de três sensores principais, os quais são acelerômetro, giroscópio e magnetômetro, o que possibilita obter continuamente  a variação de velocidade, posição e direção de um corpo rígido (ARAÚJO et al., 2013). Esses sensores podem realizar medições nos eixos de referência x,y e z. A Tabela 1.0 apresenta uma comparação entre IMUs de baixo custo e parâmetros relevantes para a escolha da tecnologia, como: quantidade de sensores embarcados, graus de liberdade, custo.
+  
+  imagens/orientacoes.png
 
 Tabela 1.0 Tabela de comparação de parâmetros das IMUs de baixo custo.
 
@@ -66,7 +68,8 @@ Figura 6
 #### Protocolo de comunicação I2C
 
   O protocolo I2C (Inter- Intergrated Circuit) é um barramento de comunicação serial que utiliza dois fios( Serial Data- DAS e Serial Clock- SCL), ou seja sinal de dados e de clock. Ele realiza a comunicação de escrita (W) e leitura (R) entre dois ou mais dispositivos, em que se pode ocorrer entre um mestre e um ou mais escravos. Para que o mestre envie sinal para determinado escravo ele precisa saber qual o endereço do escravo. Cada escravo tem um endereço específico de identificação, composto de 7 bits. Neste trabalho, o dispositivo dimensionado como mestre é o microcontrolador ESP8366 Node-MCU, e o escravo é a MPU9250. Tem-se também o escravo do escravo, o qual é o segundo MPU9250. ço do escravo a ser contactado.
-  A Figura X apresenta um exemplo do protocolo de comunicação I2C. A comunicação é iniciada pelo mestre, o início e término da comunicação é determinada pela variação do clock do nível baixo para alto. Por outro lado, para que aconteça o envio de dados o SDA tem de mudar de nível lógico quando o SCL estiver em nível baixo, depois de ter ocorrido a transição desse, de alto para baixo (critério de início) e de baixo para alto (critério de término). Feito isso, o mestre envia 1 byte, em que o bit menos significativo representa a seleção de escrita (‘1’) ou leitura (‘0’) e os demais bits representam o endereço do escravo que ele quer se comunicar. O escravo por sua vez retorna um sinal, Acknowledge (ACK), em que nível baixo indica que ele está pronto para aceitar os dados e nível alto indica um sinal de não reconhecimento,  Not Acknowledge  (NACK). Depois da validação de reconhecimento ocorre a troca de dados pelo pino SDA, até que a condição de término seja satisfeita.
+  
+   A Figura X apresenta um exemplo do protocolo de comunicação I2C. A comunicação é iniciada pelo mestre, o início e término da comunicação é determinada pela variação do clock do nível baixo para alto. Por outro lado, para que aconteça o envio de dados o SDA tem de mudar de nível lógico quando o SCL estiver em nível baixo, depois de ter ocorrido a transição desse, de alto para baixo (critério de início) e de baixo para alto (critério de término). Feito isso, o mestre envia 1 byte, em que o bit menos significativo representa a seleção de escrita (‘1’) ou leitura (‘0’) e os demais bits representam o endereço do escravo que ele quer se comunicar. O escravo por sua vez retorna um sinal, Acknowledge (ACK), em que nível baixo indica que ele está pronto para aceitar os dados e nível alto indica um sinal de não reconhecimento,  Not Acknowledge  (NACK). Depois da validação de reconhecimento ocorre a troca de dados pelo pino SDA, até que a condição de término seja satisfeita.
   
    Figura 7 do protocolo
   
