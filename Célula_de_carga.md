@@ -8,11 +8,17 @@ Foram analisadas então 2 opções para medição da potência do movimento: wat
 
 | Compontes do Wattímetro | Quantidade | Média de Preço (R$) | Localização do Fornecedor |
 |--------------------------|------------|-------|------------|
-| Torquímetro digital                    |        1   |    330,00   |      São Paulo      |
+| Torquímetro digital                    |        1   |    630,00   |      São Paulo      |
 | Encoder                      |        1   |    120,00   |     São Paulo       |
 | Wattímetro digital         |        1   |    2.000,00   |     São Paulo       |
 
 **Colocar as imagens de todos os subcomponentes pensados para escolha
+
+![Torquímetro_digital^[Fonte: https://produto.mercadolivre.com.br/MLB-703889366-torquimetro-digital-12-de-4-a-20-kgf-m-waft-_JM]](imagens/torquimetro.png){#fig:torquimetro}
+
+![Encoder^[Fonte: https://produto.mercadolivre.com.br/MLB-882483511-encoder-incremental-rotativo-600-pulsos-eixo-6mm-5-24v--_JM]](imagens/encoder.png){#fig:encoder}
+
+![Wattímetro^[Fonte: https://produto.mercadolivre.com.br/MLB-945963390-medidor-de-potncia-stages-bluetooth-modelo-spm1-175mm-_JM]](imagens/wattimetro.png){#fig:wattimetro}
 
 | Compontes da Célula de Carga | Quantidade | Média de Preço (R$) | Localização do Fornecedor |
 |--------------------------|------------|-------|------------|
