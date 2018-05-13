@@ -35,16 +35,16 @@ Tabela 1.0 Tabela de comparação de parâmetros das IMUs de baixo custo.
   
  Figura 2 
  Tabela 2.0
- | Características | MPU9250 |
-|--------------------------|------------|
-| Alimentação         |       2,4 - 3,6 V  | 
-| Dimensão             |  15 x 25 mm|    
-| Graus de liberdade         |  9  |    
-| Interface de comunicação      |     I2C   |   
-| Corrente de operação normal  |        3,5 mA*   |  
-| Frequência de operação   |        400 kHz   |  
+ | Características             | MPU9250            |
+|------------------------------|--------------------|
+| Alimentação                  |       2,4 - 3,6 V  | 
+| Dimensão                     |  15 x 25 mm        |    
+| Graus de liberdade           |       9            |    
+| Interface de comunicação     |     I2C           |   
+| Corrente de operação normal  |        3,5 mA   |  
+| Frequência de operação       |        400 kHz   |  
 
-*Com DPM habilitado. O DPM é o processador utilizado na IMU9250.
+*Essa corrente de operação é com o DPM habilitado. O DPM é o processador utilizado na IMU9250.
 
 Fonte: (INVENSENSE, 2016)
 
