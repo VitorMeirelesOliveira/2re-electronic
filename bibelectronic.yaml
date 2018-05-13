@@ -1,1 +1,15 @@
 
+
+
+  - type: article-journal
+    id: lima2012
+    author:
+    - family: Silva
+      given: [Lima e Silva, Itallo Santos et al.]
+    issued:
+      date-parts:
+      - - 2012
+    title: 'Aplicações do protocolo I2C em sistemas microcontrolados'
+    publisher: "VII CONNEPI-Congresso Norte Nordeste de Pesquisa e Inovação"
+    issue: 1
+    language: pt-BR
