@@ -26,6 +26,8 @@ Foram analisadas então 2 opções para medição da potência do movimento: wat
 | Strain gage modelo viga de flexão                  |        2   |    130,00   |      São Paulo      |
 | HX711         |        2   |    15,00   |     Brasília       |
 
+![Celula_de_carga^[Fonte: https://produto.mercadolivre.com.br/MLB-931359038-celula-de-carga-sensor-de-peso-200kg-200-kg-0296-_JM]](imagens/celula_de_carga.png){#fig:celula_de_carga}
+
 
 ![HX711^[Fonte: https://produto.mercadolivre.com.br/MLB-930850652-modulo-conversor-hx711-para-sensor-de-peso-projeto-arduino-_JM]](imagens/hx711.png){#fig:hx711}
 
