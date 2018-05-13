@@ -21,20 +21,35 @@
 
 Tabela 1.0 Tabela de comparação de parâmetros das IMUs de baixo custo.
 
-| Parâmetros | MPU6050 | MPU9250 | GY80 |
-|--------------------------|------------|-------|------------|
-| Sensor embarcado         |       Único sensor   |    Único sensor   |      Único sensor    |
-|Acelerômetro              |   MPU6050|   MPU9250 |    ADXL345       |
-| Giroscópio         |   MPU6050   |    MPU9250   |     L3G4200D       |
-| Magnetômetro      |        -   |    AK8963  |   HMC5883L        |
-| Graus de liberdade  |        6   |   9    |     10       |
-| Custo   |        R$ 13,90   |   R$ 25,00    |       R$ 80,00     |
+| Parâmetros            | MPU6050 | MPU9250 | GY80 |
+|--------------------   |------------|-------|------------|
+| Sensor embarcado      |   Único sensor   |    Único sensor   |      Único sensor    |
+| Acelerômetro          |   MPU6050        |   MPU9250 |    ADXL345       |
+| Giroscópio            |   MPU6050        |    MPU9250   |     L3G4200D       |
+| Magnetômetro          |      -   |    AK8963  |   HMC5883L        |
+| Graus de liberdade    |      6   |   9    |     10       |
+| Custo                 |   R$ 13,90   |   R$ 25,00    |       R$ 80,00     |
 
 
   Em observância com a Tabela 1.0, a IMU selecionada como solução foi a MPU9250, pois a mesma possui um custo baixo e magnetômetro, contemplando 9 graus de liberdade, três graus de liberdade a mais do que a MPU6050. A GY80 possui um custo mais alto comparado aos demais. A Figura 2.0 apresenta a orientação dos eixos dos sensores (a) acelerômetro, (b) giroscópio e (c) magnetômetro, esses dados são essenciais para realização do código para aquisição dos sinais (INVENSENSE, 2016). A Tabela 2.0 apresenta as características do MPU9250. Os três sensores imbutidos na MPU9250 podem obter sinais nos três eixos (x, y, z) e possuem três conversores analógico-digitais (ADCs) de 16 bits, para cada respectivo sensor.
   
  Figura 2 
  Tabela 2.0
+ | Características | MPU9250 |
+|--------------------------|------------|
+| Alimentação         |       2,4 - 3,6 V  | 
+| Dimensão             |  15 x 25 mm|    
+| Graus de liberdade         |  9  |    
+| Interface de comunicação      |     I2C   |   
+| Corrente de operação normal  |        3,5 mA*   |  
+| Frequência de operação   |        400 kHz   |  
+
+*Com DPM habilitado. O DPM é o processador utilizado na IMU9250.
+
+Fonte: (INVENSENSE, 2016)
+
+
+
  
  Foi realizado um código para calibrar as IMUs utilizadas, pois como as medidas devem ser enviadas de forma contínua, é necessário que haja uma maior precisão. 
 
