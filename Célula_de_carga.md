@@ -26,4 +26,7 @@ Foram analisadas então 2 opções para medição da potência do movimento: wat
 | Strain gage modelo viga de flexão                  |        2   |    130,00   |      São Paulo      |
 | HX711         |        2   |    15,00   |     Brasília       |
 
+
+![HX711^[Fonte: https://produto.mercadolivre.com.br/MLB-930850652-modulo-conversor-hx711-para-sensor-de-peso-projeto-arduino-_JM]](imagens/hx711.png){#fig:hx711}
+
 Portanto, analisando valores e disponibilidade rápida para entrega, concluímos que comprar um wattímetro pronto estaria fora do orçamento do nosso projeto uma vez que seu valor é muito alto, também analisamos comprar um torquímetro e um encoder mas seria uma solução relativamente complexa do ponto de vista de integração e também por aumentar o escopo do projeto, uma vez que já há demasiado trabalho a ser realizado. Por isso optamos por colocar 2 células de carga na base para os pés para realizar medições de força e transformar em potência, como será explicado abaixo. Entre os modelos pesquisados para servir como célula de carga, o modelo S e o modelo de viga de flexão foram os que mais se adaptaram às necessidades do projeto. Pensando na alocação dos sensores no subsistema 2RE-Boat, foi escolhida então a célula de carga modelo S pois a mesma ocuparia menos espaço e tem o limite de força adequado à medição necessária.
