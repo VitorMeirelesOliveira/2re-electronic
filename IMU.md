@@ -16,10 +16,11 @@
   A Unidade de Medida Inercial (IMU) é um sistema microeletromecânico (MEM), que permite identificar a posição  ou o deslocamento de um corpo rígido em um espaço tridimensional. Neste trabalho, a IMU será responsável em determinar a posição do membro inferior direito para a criação de exoesqueleto autónomo para a identificação e correção da postura do praticante de remo indoor. Desse modo, este trabalho sugere implementar uma IMU em dois centros de gravidades, pois nesses pontos a massa está distribuída de forma uniforme,  localizados no membro inferior do exoesqueleto como pode ser visto na Figura 1.0, para estimar a orientação desses pontos onde há equilíbrio de forças (VAUGHAN et al., 1999).
   
   Figura 1 do exoesqueleto
+  ![Celula_s^[Fonte:Adaptado de (VAUGHAN et al., 1999)]](imagens/exoesqueleto.png){#fig:exoesqueleto}
   
   A IMU é composta de três sensores principais, os quais são acelerômetro, giroscópio e magnetômetro, o que possibilita obter continuamente  a variação de velocidade, posição e direção de um corpo rígido (ARAÚJO et al., 2013). Esses sensores podem realizar medições nos eixos de referência x,y e z. A Tabela 1.0 apresenta uma comparação entre IMUs de baixo custo e parâmetros relevantes para a escolha da tecnologia, como: quantidade de sensores embarcados, graus de liberdade, custo.
   
-  imagens/orientacoes.png
+
 
 Tabela 1.0 Tabela de comparação de parâmetros das IMUs de baixo custo.
 
