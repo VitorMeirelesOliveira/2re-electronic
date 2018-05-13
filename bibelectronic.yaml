@@ -28,4 +28,18 @@
     issue: 1
     language: pt-BR
     
+    
+  - type: article-journal
+    id: maia06
+    author:
+    - family: Prieto
+      given: [Fabián, B.]
+    issued:
+      date-parts:
+      - - 2018
+    title: 'Um estudo sobre arquiteturas de hardware para técnicas de fusão sensorial através do EKF e da estimação de estados baseada emm filtros híbridos otimizados'
+    publisher: "Universidade de Brasília"
+    issue: 1
+    language: pt-BR
+    
    
