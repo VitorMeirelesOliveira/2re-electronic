@@ -77,7 +77,7 @@ equação
   A  Figura [@giro], mostra os valores correspondidos ao giroscópio antes e depois da calibração, é possível observar que os gráficos são muito parecidos, isso pode ter acontecido, pois nesse processo em específico, o integrante pode ter refeito a calibração. p calibrado possui os valores mais próximos ao valor (0 graus/s), conforme o esperado.
 
 
-![Celula_s^[Fonte:Autor,2018).]](imagens/giro.png){#fig:giro}
+![Celula_s^[Fonte:Autor,2018).]](imagens/gir.png){#fig:gir}
 
 
   Na calibração do magnetômetro é necessário enfatizar que cada eixo deve ser calibrado em relação ao mesmo campo magnético, foi por esse motivo que fez-se primeiro nos eixos x e y e depois no z. Na Figura [@mag] é possível verificar que a calibração é primordial para esse sensor, pois sem os ajustes os dados do mesmo não terá valor significativo, o valor da medida dos eixos não está disposto no ponto de referência dos três eixos (0,0,0). Cada eixo está localizado em um ponto diferente. Depois de calibrado, observa-se que os três eixos estão centralizados próximo ao ponto de referência (0,0,0), o que indica que os três eixos (x,y,z) estão calibrados em relação ao mesmo campo magnético.
